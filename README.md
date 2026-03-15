@@ -33,22 +33,21 @@ O sistema possui as seguintes funcionalidades:
 
 ---
 
-## Sistema de Correspondência de Itens
+## Algoritmo de Correspondência de Itens
 
-Uma das funcionalidades principais do sistema é o **mecanismo de correspondência (match) entre itens perdidos e encontrados**.
+O sistema possui um mecanismo de correspondência entre objetos perdidos e encontrados.
 
-Quando um item é cadastrado, o sistema pode comparar suas características com outros registros existentes no banco de dados.
+Quando um novo item é cadastrado, o sistema compara suas características com os itens existentes no banco de dados.
 
-A análise considera atributos como:
+A análise considera:
 
-- Nome do objeto
-- Data em que foi perdido ou encontrado
-- Local do ocorrido
-- Descrição do item
+- nome do objeto
+- categoria
+- local
+- data da ocorrência
+- descrição
 
-Com base nesses dados, o sistema calcula o **grau de similaridade entre os registros** e sugere possíveis correspondências.
-
-Esse recurso ajuda a identificar com mais facilidade os donos dos objetos encontrados.
+Com base nessas informações é calculado um **score de similaridade**, permitindo sugerir possíveis correspondências entre objetos perdidos e encontrados.
 
 ---
 
@@ -129,5 +128,31 @@ Este projeto foi desenvolvido como parte de atividades acadêmicas com o objetiv
 
 ### Sistema de correspondência
 ![Match](imagens/SistemaMatch.png)
+
+## Estrutura do Banco de Dados
+
+![Diagrama do banco](imagens/diagramaBanco.png)
+
+---
+
+## Como Executar o Projeto
+
+1. Clone o repositório
+
+git clone https://github.com/Rubenn34/IFAchados.git
+
+2. Crie o banco de dados executando:
+
+database/schema.sql
+
+3. Configure a conexão com o banco no arquivo:
+
+src/dao/Conexao.java
+
+4. Abra o projeto no NetBeans ou outra IDE Java.
+
+5. Execute a aplicação.
+
+
 
 
