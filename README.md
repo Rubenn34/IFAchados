@@ -80,7 +80,54 @@ Contém as classes que representam as entidades do sistema.
 **UI (User Interface)**  
 Responsável pela interface gráfica do sistema e interação com o usuário.
 
+
 ---
 
-## Estrutura do Projeto
+## Banco de Dados
+
+O sistema utiliza **MySQL** para armazenar as informações de:
+
+- objetos perdidos
+- objetos encontrados
+- usuários
+- devoluções
+- correspondências entre itens
+
+A comunicação com o banco é realizada utilizando **JDBC**.
+
+---
+
+## Interface do Sistema
+
+O sistema possui uma interface gráfica desenvolvida em **Java Swing**, permitindo que o usuário:
+
+- registre novos objetos
+- consulte registros existentes
+- gerencie devoluções
+- visualize possíveis correspondências entre itens
+
+---
+
+## Objetivo Acadêmico
+
+Este projeto foi desenvolvido como parte de atividades acadêmicas com o objetivo de aplicar conceitos de:
+
+- modelagem de sistemas
+- programação orientada a objetos
+- persistência de dados
+- desenvolvimento de aplicações desktop
+
+---
+
+## Demonstração do Sistema
+
+### Tela cadastro
+![Tela cadastro](images/telaCadastro.png)
+
+### Cadastro de objeto
+![Cadastro](images/cadastroObjeto.png)
+
+### Sistema de correspondência
+![Match](images/sistemaMatch.png)
+Projeto desenvolvido por **Ruben Miqueias Costa**.
 
