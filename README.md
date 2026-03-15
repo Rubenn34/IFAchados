@@ -122,12 +122,12 @@ Este projeto foi desenvolvido como parte de atividades acadêmicas com o objetiv
 ## Demonstração do Sistema
 
 ### Tela cadastro
-![Tela cadastro](images/telaCadastro.png)
+![Tela cadastro](imagens/telaCadastro.png)
 
 ### Cadastro de objeto
-![Cadastro](images/cadastroObjeto.png)
+![Cadastro](imagens/cadastroObjeto.png)
 
 ### Sistema de correspondência
-![Match](images/sistemaMatch.png)
+![Match](imagens/SistemaMatch.png)
 
 
