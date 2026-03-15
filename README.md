@@ -129,5 +129,5 @@ Este projeto foi desenvolvido como parte de atividades acadêmicas com o objetiv
 
 ### Sistema de correspondência
 ![Match](images/sistemaMatch.png)
-Projeto desenvolvido por **Ruben Miqueias Costa**.
+
 
